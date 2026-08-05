@@ -1,0 +1,17 @@
+import Calendario from "./components/Calendario";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
+import TextosRecepcao from "./components/TextosRecepcao";
+
+function App() {
+  return (
+    <>
+      <Header />
+      <TextosRecepcao />
+      <Calendario />
+      <Meme />
+    </>
+  );
+}
+
+export default App;
