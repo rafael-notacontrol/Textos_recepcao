@@ -8,6 +8,7 @@ function App() {
     <>
       <Header />
       <TextosRecepcao />
+      <FraseDoDia />
       <Calendario />
       <Meme />
     </>
