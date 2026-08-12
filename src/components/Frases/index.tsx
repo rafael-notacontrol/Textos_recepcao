@@ -1,4 +1,5 @@
 import { Card, CardDescription, CardHeader } from "@heroui/react";
+import { CoffeeIcon } from "@phosphor-icons/react";
 
 export default function FraseDoDia() {
   const frases = [
@@ -116,7 +117,9 @@ export default function FraseDoDia() {
   return (
     <div className="flex flex-row flex-wrap justify-center gap-4 m-8">
       <Card className="w-100" variant="default">
-        <CardHeader>Frase do dia</CardHeader>
+        <CardHeader className="flex flex-row items-center gap-2">
+          Frase do dia <CoffeeIcon size={20} />
+        </CardHeader>
         <CardDescription>{fraseDoDia()}</CardDescription>
       </Card>
     </div>
