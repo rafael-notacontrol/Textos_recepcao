@@ -35,6 +35,15 @@ Nos colocamos à disposição.
 
 Atenciosamente,`,
     },
+    {
+      id: 3,
+      titulo: "Select básico",
+      conteudo: `
+SELECT *
+FROM 
+WHERE
+`,
+    },
   ];
 
   const notificacao = () =>
