@@ -118,7 +118,7 @@ export default function FraseDoDia() {
     <div className="flex flex-row flex-wrap justify-center gap-4 m-8">
       <Card className="w-100" variant="default">
         <CardHeader className="flex flex-row items-center gap-2">
-          Frase do dia <CoffeeIcon size={20} />
+          Palavra do dia <CoffeeIcon size={20} />
         </CardHeader>
         <CardDescription>{fraseDoDia()}</CardDescription>
       </Card>
