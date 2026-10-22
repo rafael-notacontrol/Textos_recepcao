@@ -6,12 +6,12 @@ import TextosRecepcao from "./components/TextosRecepcao";
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col items-center">
       <Header />
       <TextosRecepcao />
       <FraseDoDia />
       <Calendario />
-    </>
+    </div>
   );
 }
 

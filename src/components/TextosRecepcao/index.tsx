@@ -62,7 +62,7 @@ WHERE
 
   return (
     <>
-      <div className="flex flex-row flex-wrap justify-center gap-4 m-8">
+      <div className="flex flex-col flex-wrap justify-center gap-4 m-8">
         {textos.map((item) => (
           <Card key={item.id} className="w-100" variant="default">
             <CardTitle>{item.titulo}</CardTitle>
