@@ -3,7 +3,7 @@ import { getLocalTimeZone, today } from "@internationalized/date";
 
 export default function Calendario() {
   return (
-    <div className="flex flex-col items-center gap-4 mb-2">
+    <div className="flex flex-col items-center gap-4 mb-6">
       <Calendar
         isReadOnly
         aria-label="Event date"
