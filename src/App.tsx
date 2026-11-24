@@ -9,7 +9,17 @@ import TextosRecepcao from "./components/TextosRecepcao";
 function App() {
   return (
     <div className="flex flex-col items-center">
-      <Snowfall snowflakeCount={100} speed={[1.0, 1.0]} />
+      <Snowfall
+        snowflakeCount={80}
+        speed={[0.5, 1.0]}
+        radius={[1.0, 2.0]}
+        wind={[-0.5, 0.5]}
+        style={{
+          position: "fixed",
+          width: "100vw",
+          height: "100vh",
+        }}
+      />
       <Header />
       <TextosRecepcao />
       <FraseDoDia />
