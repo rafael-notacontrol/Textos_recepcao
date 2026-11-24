@@ -1,4 +1,4 @@
-import coffeeIcon from "../../assets/cafe3.png";
+import coffeeIcon from "../../assets/vapor.gif";
 
 export default function Header() {
   const hoje = new Date();
@@ -20,7 +20,7 @@ export default function Header() {
         <img
           src={coffeeIcon}
           alt="Ícone de café"
-          className="h-16 w-16 object-contain"
+          className="h-18 w-18 object-contain"
         />
 
         <div className="hidden sm:block">
