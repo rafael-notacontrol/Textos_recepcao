@@ -14,7 +14,7 @@ export default function Header() {
   });
 
   return (
-    <header className="mx-auto mt-6 flex w-[95%] max-w-7xl items-center justify-between rounded-3xl bg-sky-900 px-8 py-6 shadow-lg transition-all duration-300 hover:shadow-xl">
+    <header className="z-50 mx-auto mt-6 flex w-[95%] max-w-7xl items-center justify-between rounded-3xl bg-sky-900 px-8 py-6 shadow-lg transition-all duration-300 hover:shadow-xl">
       {/* Lado esquerdo */}
       <div className="flex items-center gap-5">
         <img
